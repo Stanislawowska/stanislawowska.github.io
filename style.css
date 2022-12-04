@@ -1,0 +1,133 @@
+body {
+    background-color: #ffffff;
+}
+  
+
+h1 {
+    color: rgb(236, 241, 63);
+    text-shadow: 10px 10px rgb(85, 85, 5);
+    font-size: 150px;
+    font-family: 'Copperplate Gothic Light';
+    font-style: italic; 
+    font-stretch: extra-expanded;
+    text-align: center;
+  }
+
+  .bee {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+  }
+  
+  form {
+    text-align: left;
+    border: none;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+  }
+   
+  input {
+    color: rgb(224, 182, 14);
+   }
+
+div.gallery {
+    margin: 50px;
+    border: 1px solid #ccc;
+    float: center;
+    width:"600";
+    height:"400";
+    display: flow-root;
+    }
+    
+div.gallery:hover {
+    border: 1px solid yellow;
+    }
+    
+div.desc {
+    padding: 5px;
+    text-align: center;
+    display: flow-root;
+    }
+
+   h3 { 
+    text-align: center;
+    font-family: 'Copperplate Gothic Light';
+   }
+
+
+
+  div {
+    color: rgb(82, 82, 82);
+  }
+
+
+ .center {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 90%;
+ }   
+
+ ul {
+    list-style-type: none;
+    list-style-position: inside;
+    background: rgb(233, 211, 126);
+    padding: 50px;
+    }
+.klasy {
+	display: flex;
+}
+
+.heart {
+max-width: 100%;
+height: auto;
+display: block;
+margin-left: auto;
+margin-right: auto
+  }
+
+h2 {
+font-family: 'Copperplate Gothic Light';
+}
+
+.container {
+position:relative;
+width:50%;
+}
+
+.middle {
+transition: .5s ease;
+opacity: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%)
+}
+  
+.container:hover .image {
+opacity: 0.3;
+}
+  
+.container:hover .middle {
+opacity: 1;
+}
+  
+.text {
+background-color: rgb(148, 148, 5);
+color: white;
+font-size: 16px;
+padding: 16px 32px;
+}
+
+.block {
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+
